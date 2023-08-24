@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cybersecurity Salary </title>
+</head>
+<body>
+    <h1>Cybersecurity Salary Prediction</h1>
+    <p>Please select a year:</p>
+    <form method="POST" action="{{ url_for('predict') }}">
+        <label for="year">Year:</label>
+        <select id="year" name="year">
+            <option value="2020">2020</option>
+            <option value="2021">2021</option>
+            <option value="2022">2022</option>
+        </select>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
